@@ -1,0 +1,169 @@
+@media screen and (min-width: 650){
+    header{
+        min-height: 500px;
+    }
+}
+#body {
+    background-image: url(../assets/images/body.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 950px;
+}
+@media screen and (min-width: 500) {
+    #body {
+    min-height: 1000px;
+    }
+}
+#get {
+    background-image: url(../assets/images/elements.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+@media screen and (min-width: 500) {
+    #get {
+        min-height: 440px;
+    }
+}
+nav {
+    background-image: url(../assets/images/nav-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#rex {
+    border-radius: 5px 50px 30px 5px;
+    height: 200px;
+}
+#rexz {
+    border-radius: 30px 5px 15px 50px;
+    height: 200px;
+}
+#rexy {
+    border-radius: 15px 50px 30px;
+    height: 200px;
+}
+
+.section{
+    background-color: #f5f9fa;
+}
+.btn-buy {
+    border-radius: 10px;
+}
+.btn-sell {
+    border-radius: 10px;
+}
+.btn-others {
+    border-radius: 10px;
+}
+.btn-order {
+    border-radius: 10px;;
+}
+#order{
+background-image: url(../assets/images/sect.jpg);
+margin-top: 10rem;
+min-height: 200px;
+}
+#exp {
+    border-radius: 10px;;
+}
+#body .mark {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:  initial;
+}
+#offer {
+    margin-top: 30px;
+    min-height: 120px;
+}
+#offer #off {
+    border-radius: 10px;
+    border-right-style: inset;
+}
+#get #sel {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:  initial;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+main {
+flex: 1 0 auto;
+}
+
+.page-footer {
+background-image: url(../assets/images/footer.jpg);
+background-position: center;
+background-size: cover;
+}
+#order .container .row .col .btn-order {
+    margin-top: 25px;
+    width: 200px;
+}
+/*
+=====================================
+    cards styling by alabson.inc
+=====================================
+*/
+
+.sect .row .col .card {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #fafafa;
+    height: 300px;
+
+}
+
+.sect .row .col .card .card-action {
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.sect .row .col .card .card-action #more {
+    margin-top: 40px;
+    border-radius: 7px 7px 6px 6px;
+    float: inherit;
+    width: 150px;
+}
+.sect .row .col .card .card-action #mox {
+    margin-top: 40px;
+    border-radius: 7px 7px 6px 6px;
+    float: inherit;
+    width: 150px;
+}
+.sect .row .col .card .card-action #btn-action {
+    margin-top: 21px;
+    border-radius: 7px 7px 6px 6px;
+    float: inherit;
+    width: 150px;
+}
+#kit {
+    border-radius: 15px 50px 30px 5px;
+    text-align: center;
+    text-decoration-style: solid;
+    height: 60px;
+    font-size: 20px;
+}
+#panel {
+    border-radius: 20px;
+}
+#pulse {
+    border-radius: 20px;
+}
+#body #sixt #sixc #card {
+    border-radius: 20px;
+}
+#body #sixt #sixc #card .card-action .btn-by {
+    width: 70px;
+    border-radius: 150px;
+}
+.card-image {
+    border-radius: 20px;
+}
+#caro {
+    height: 700px;
+}
